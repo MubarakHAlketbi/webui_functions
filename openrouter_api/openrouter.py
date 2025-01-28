@@ -1,9 +1,20 @@
+"""
+title: OpenRouter API Integration
+author: MubarakHAlketbi
+description: Integrates OpenRouter's API into Open WebUI, providing access to 300+ AI models through a unified API
+version: 1.0.0
+author_url: https://github.com/MubarakHAlketbi
+funding_url: https://pay.ziina.com/MubarakHAlketbi
+"""
+
 import requests
 from pydantic import BaseModel, Field
 from typing import Optional, List, Dict, Generator, Union
 
 class Pipe:
-    """OpenRouter API integration for open-webui."""
+    """OpenRouter API integration for Open WebUI. Provides access to 300+ AI models
+    through OpenRouter's unified API, with features like automatic model selection,
+    streaming responses, and comprehensive error handling."""
     
     class Valves(BaseModel):
         OPENROUTER_API_KEY: str = Field(

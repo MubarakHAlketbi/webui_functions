@@ -50,6 +50,14 @@ Feel free to contribute by:
 - Suggesting improvements
 - Creating pull requests with new functions
 
+## Support the Project
+
+If you find this project helpful, consider supporting its development:
+
+- **Donate**: [Support via Ziina](https://pay.ziina.com/MubarakHAlketbi)
+- **Star**: Give the project a star on GitHub
+- **Contribute**: Submit issues, suggestions, or pull requests
+
 ## License
 
 This project is open source and available under the MIT License.
